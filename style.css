@@ -227,8 +227,26 @@ h4 {
   padding:15px;
   background-color:#EEF9C5;
   color: #273F75;
+  transition:all 1s ease;
 }
 #emailText:hover {
   background-color: #273F75;
   color:#EEF9C5;
 }
+#crowdrise {
+  background: #EEF9C5;
+  border-color: #273F75;
+  border: 2px;
+  border-style: solid;
+  color: #273F75;
+  width: 80%;
+  height: 25%;
+  font-size: 30px;
+  transition:all 1s ease;
+}
+#crowdrise:hover {
+  background: #273F75;
+  color: #EEF9C5;
+  box-shadow:20px 20px 50px 15px grey;
+}
+
