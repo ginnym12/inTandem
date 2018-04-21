@@ -197,7 +197,7 @@ h4 {
 /* The Close Button */
 .close {
     position: absolute;
-    top: 55px;
+    top: 100px;
     right: 35px;
     color: #4286f4;
     font-size: 40px;
