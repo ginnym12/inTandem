@@ -1,0 +1,234 @@
+p {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+}
+#myNavbar {
+  background-color: #EEF9C5;
+}
+.header {
+  width: 100%;
+  min-height: 500px;
+  margin-top: 50px;
+  padding: 30px 0 30px;
+  text-align: center;
+  background-color: #EEF9C5;
+}
+.mission {
+    padding: 30px 0 30px;
+    text-align: center;
+    min-height: 600px;
+    background-color: #EEF9C5;
+}
+#missionBody {
+  max-width: 60%;
+  margin: auto;
+  font-size: 20px;
+  border: 2px;
+  border-color: #273F75;
+  border-style: solid;
+  padding:15px;
+}
+.story {
+    padding: 15px 0 80px;
+    text-align: center;
+    min-height: 700px;
+    background-color: #EEF9C5;
+}
+#storyBody {
+  text-align: left;
+  text-indent: 50px;
+  border: 2px;
+  border-color: #273F75;
+  border-style: solid;
+  padding:15px;
+}
+.journey {
+    padding: 50px 0 50px;
+    text-align: center;
+    min-height: 600px;
+    background-color: #EEF9C5;
+}
+.med {
+  padding: 30px 0 30px;
+  text-align: center;
+  min-height: 600px;
+  background-color: #EEF9C5;
+}
+.support {
+    padding: 30px 0 30px;
+    text-align: center;
+    min-height: 600px;
+    background-color: #EEF9C5;
+}
+#supportCon {
+  display: flex;
+  flex-direction: row;
+}
+#medCon {
+  display: flex;
+  flex-direction: row;
+}
+.overlay {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  opacity: 0;
+  transition: .5s ease;
+  background: none;
+}
+.iconContainer:hover .overlay {
+  opacity: 1;
+}
+.iconContainer:hover .img-responsive {
+  opacity: 0.6;
+}
+.text {
+  color: black;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#iconRow {
+  display: flex;
+  flex-direction: column;
+}
+#icon {
+  position: relative;
+}
+#conPic {
+  display: block;
+  margin: auto;
+}
+.contact {
+    padding: 80px 0 80px;
+    text-align: center;
+    min-height: 600px;
+    background-color: #EEF9C5;
+}
+#teamPhotoCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+#teamImg {
+    max-width: 275px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#teamImg:hover { opacity: 0.7;}
+/* The Modal (background) */
+
+#teamImgEric {
+  max-width: 275px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#teamImgEric:hover { opacity: 0.7;}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 60%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 55px;
+    right: 35px;
+    color: #4286f4;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+#emailText {
+  border-radius: 15px;
+  font-size: 20px;
+  border: 2px;
+  border-color: #273F75;
+  border-style: solid;
+  padding:15px;
+  background-color:#EEF9C5;
+  color: #273F75;
+}
+#emailText:hover {
+  background-color: #273F75;
+  color:#EEF9C5;
+}
