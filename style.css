@@ -14,7 +14,7 @@ h4 {
   font-family: 'Roboto', sans-serif;
 }
 #myNavbar {
-  background-color: #EEF9C5;
+  background-color: #a0d2e8;
 }
 .header {
   width: 100%;
@@ -22,16 +22,16 @@ h4 {
   margin-top: 50px;
   padding: 30px 0 30px;
   text-align: center;
-  background-color: #EEF9C5;
+  background-color: #a0d2e8;
 }
 .mission {
     padding: 30px 0 30px;
     text-align: center;
     min-height: 600px;
-    background-color: #EEF9C5;
+    background-color: #a0d2e8;
 }
 #missionBody {
-  max-width: 60%;
+  max-width: 80%;
   margin: auto;
   font-size: 20px;
   border: 2px;
@@ -43,7 +43,7 @@ h4 {
     padding: 15px 0 80px;
     text-align: center;
     min-height: 700px;
-    background-color: #EEF9C5;
+    background-color: #a0d2e8;
 }
 #storyBody {
   text-align: left;
@@ -57,19 +57,19 @@ h4 {
     padding: 50px 0 50px;
     text-align: center;
     min-height: 600px;
-    background-color: #EEF9C5;
+    background-color: #a0d2e8;
 }
 .med {
   padding: 30px 0 30px;
   text-align: center;
   min-height: 600px;
-  background-color: #EEF9C5;
+  background-color: #a0d2e8;
 }
 .support {
     padding: 30px 0 30px;
     text-align: center;
     min-height: 600px;
-    background-color: #EEF9C5;
+    background-color: #a0d2e8;
 }
 #supportCon {
   display: flex;
@@ -120,7 +120,7 @@ h4 {
     padding: 80px 0 80px;
     text-align: center;
     min-height: 600px;
-    background-color: #EEF9C5;
+    background-color: #a0d2e8;
 }
 #teamPhotoCol {
   display: flex;
@@ -194,24 +194,6 @@ h4 {
     to {transform:scale(1)}
 }
 
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 100px;
-    right: 35px;
-    color: #4286f4;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {
@@ -225,28 +207,27 @@ h4 {
   border-color: #273F75;
   border-style: solid;
   padding:15px;
-  background-color:#EEF9C5;
+  background-color: #a0d2e8;
   color: #273F75;
   transition:all 1s ease;
 }
 #emailText:hover {
   background-color: #273F75;
-  color:#EEF9C5;
+  color:#a0d2e85;
 }
 #crowdrise {
-  background: #EEF9C5;
+  background: #a0d2e8;
   border-color: #273F75;
   border: 2px;
   border-style: solid;
   color: #273F75;
   width: 80%;
   height: 25%;
-  font-size: 30px;
   transition:all 1s ease;
 }
 #crowdrise:hover {
   background: #273F75;
-  color: #EEF9C5;
+  color: #a0d2e8;
   box-shadow:20px 20px 50px 15px grey;
 }
 
